@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre d'un Fokotany</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+      <div id="menu"><br><br><br><br><br><br><br><br><br><br><br><br>
+        <header style="margin-top: 15px; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: larger; ">Video à écouter</header> <br>
+        <p style="text-align: justify; font-family: Arial, Helvetica, sans-serif; font-size: medium;"> Durant la saisie de vos informations personnelles, veuillez ecouter une de nos chansons. Vous aurez le choix entre format video et audio</p>
+        <center><video width="350" height="240" controls class="video" style="padding: 0px; height: 200px;"  >
+            <source src="Polyphia - Crush (Official Video).mp4" type=video/mp4 >
+          </video></center>
+          
+        <p style="text-align: justify; font-family: Arial, Helvetica, sans-serif; font-size: medium;">Si la video vous a plu, vous pouriez la telecharge via le lien <a href="Polyphia - Crush (Official Video).mp4" download="download"> download</a></p>
+       <center> <audio width="350" height="240" controls class="video" style="padding: 10px; height: 100px;" >
+            <source src="04. Nightmare.mp3" type=audio/mp3 ></center>
+          </video>
+          <p style="text-align: justify; font-family: Arial, Helvetica, sans-serif; font-size: medium;">Si l'audio vous a plu, vous pouriez la telecharge via le lien <a href="04. Nightmare.mp3" download="download"> download</a></p>
+          
+      </div>
+    </div>
+    
+    
+    
+    <section class="margin">
+        
+      
+    </section>
+    <section class="container">
+        <header>Registre d'un Fokotany</header>
+        <form action="#" class="form">
+          <div class="input-box">
+            <label>Nom</label>
+            <input type="text" placeholder="Entez votre nom" required />
+          </div>
+
+          <div class="input-box">
+            <label>Prénom</label>
+            <input type="text" placeholder="Entez votre prénom" required />
+          </div>
+
+          <div class="input-box">
+            <label>adresse email</label>
+            <input type="text" placeholder="Entez votre adresse email" required />
+          </div>
+
+          <div class="input-box">
+            <label>Votre couleur </label>
+            <input type="color"  required />
+          </div>
+
+          <div class="column">
+            <div class="input-box">
+              <label>Numero téléphone</label>
+              <input type="number" placeholder="Entez votre numero téléphone" required />
+            </div>
+            <div class="input-box">
+              <label>Date de naissance</label>
+              <input type="date" placeholder="Entez votre date de naissance" required />
+            </div>
+          </div>
+          <div class="gender-box">
+            <h3>Sexe</h3>
+            <div class="gender-option">
+              <div class="gender">
+                <input type="radio" id="check-male" name="gender" checked />
+                <label for="check-male">male</label>
+              </div>
+              <div class="gender">
+                <input type="radio" id="check-female" name="gender" />
+                <label for="check-female">Female</label>
+              </div>
+              <div class="gender">
+                <input type="radio" id="check-other" name="gender" />
+                <label for="check-other">Autre</label>
+              </div>
+            </div>
+          </div>
+          <div class="input-box address">
+            <label>Domicile</label>
+            <input type="password" placeholder="Entez votre mots de passe" required />
+            <input type="password" placeholder="Entrez a nouveau votre mots de passe" required />
+            <div class="column">
+              <div class="select-box">
+                <select>
+                  <option hidden>Analakely</option>
+                  <option>Antanimena</option>
+                  <option>Ankatso</option>
+                  <option>Ankorahotra</option>
+                  <option>Antsahabe</option>
+                </select>
+              </div>
+              <input type="text" placeholder="Entez votre adresse de Domicile" required />
+            </div>
+            <div class="column">
+              <input type="text" placeholder="Entez votre nationalité" required />
+              <input type="number" placeholder="Entez votre code postal" required />
+            </div>
+          </div>
+          <div class="gender-box">
+            <input type="checkbox" value="contrat">
+            <label for="contract">Oui, j'accepte de donner mes informations </label>
+          </div>
+
+          <div class="gender-box">
+            <input type="checkbox" value="contrat">
+            <label for="contract">J'accepte de recevoir des notifications </label>
+          </div>
+          <div>
+            <button>Envoyer</button>
+          </div>
+
+          <div class="gender-box">
+            <p> veuillez vous connecter a votre compteen suivant ce lien <a href="Nouveau_compte.html" target="_blank">Connecter a voter compte</a></p>
+
+          </div>
+     
+        </form>
+      </section>
+</body>
+</html>
